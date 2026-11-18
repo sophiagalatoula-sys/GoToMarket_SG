@@ -4,7 +4,7 @@
 
 ## 1. Pricing goal
 
-- **Goal:** _____
+- **Goal:** Enter a new market. Roamly Groups takes Roamly into group bookings, territory it has never served. The first job of the price is adoption: organisers must start group bookings, and the friends they invite must say yes and pay. The goal is **Acquire**: net-new travellers who come in through the friends each organiser invites. Margin comes second at launch.
 
 ## 2. Pricing model
 
