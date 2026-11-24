@@ -131,11 +131,41 @@ The assumption is about how invited friends perceive a new fee. Van Westendorp's
   - Household NPLs were 8.6% (press).
   - Thin-file micro-loans will run well above the bank book.
 - **Comment:** benchmark the ambition against the BoG H1 2026 sector figures: **RoA 1.3%, RoE 12.1%**. What RoE do they target for HDFS, and by which year?
+  - **Peer benchmark** ([roe-benchmarks.md](../research/roe-benchmarks.md)):
+    - Published returns for consumer lenders run from 13.3% to 24.2%, median 19.1%:
+      - Bigbank RoE 13.3%
+      - IPF 15.4%, target 15–20%
+      - Santander Digital Consumer Bank RoTE 19.1%
+      - tbi RoTE 20.9% (aggregator figure, unverified; public data only)
+      - NOBA RoTE 24.2%
+    - **Reasonable ambition: about 15–20% at steady state.** The floor is 12.1%, since investors will want more than the bank average for a riskier credit company.
+    - Expect low or negative RoE while the book builds.
+  - **Leverage point:**
+    - Greek banks reach 12.1% on a 1.3% RoA because deposits let them lend about 9x their equity.
+    - A non-deposit lender with equity at 25–40% of loans needs a **3–6% RoA** (after funding, losses, opex and tax) to reach 12–15% RoE.
+    - With the APR capped, the size and cost of the bank lines decide the RoE.
+    - **In simple words (illustration, round numbers):**
+      - Shareholders put in **€100**. The bank adds about **€830 of deposits**, so it lends about **€930**, roughly 9.3x the equity.
+      - It earns **1.3%** on the €930 after costs, losses and tax, which is about **€12**. That €12 on the shareholders' €100 is **about 12% RoE**.
+      - The margin is thin, but it is earned on a large, mostly borrowed amount. 12.1% ÷ 1.3% ≈ 9.3x, using the BoG FSR figures.
+      - **HDFS has no deposits.** Its lending beyond the €5m equity is funded by bank credit lines, so its leverage is **unknown**: the founders haven't stated it.
+      - **Illustrative range of 2.5–4x:**
+        - **2.5x is published.** IPF, a non-deposit consumer lender, holds equity at 40% of loans ([IPF 2025 CFO review](https://www.ipfin.co.uk/content/dam/ipf/corporate/documents/investors/annual-report-/2025/2025-ar-cfo-financial-review.pdf)).
+        - **4x is my own assumption**, with equity at 25% of loans. It is not sourced.
+        - At the banks' 1.3% RoA, 2.5–4x gives only **about 3–5% RoE**. To reach 12–15%, HDFS needs a **3–6% RoA**, and the APR cap stops it simply charging more.
+      - **What decides HDFS's real leverage:**
+        - how much of each loan the funding banks will finance, and how big a cushion of HDFS's own money they require (usually larger for a new, unsecured, unproven book)
+        - any BoG capital rules for credit companies under Art. 153 of Law 4261/2014 (**not checked**)
+        - HD's own risk appetite
+        - later, securitisation or forward-flow sales, once there is a track record
+      - **How to say it in the room:** *"I don't know your leverage, and that's what I'd like to understand. For reference, IPF holds equity at 40% of loans, which is 2.5x. How much bank funding have you lined up, on what terms, and how much equity does each euro of loans need?"*
+  - **Question:** "What RoE do you target, by which year, and how much bank funding do you assume per euro of equity, at what spread?"
 - **Question (insurance cross-sell, law):** "How does the credit-to-insurance cross-sell work under Arts. 15–16 of Law 5317/2026?"
   - The customer must be free to choose another insurer.
   - There is a 3-working-day wait before insurance can be sold alongside the loan.
   - So the LTV uplift can't rely on bundling at the point of credit. Ask whether the business case counts cross-sell revenue that the law would block.
 - **Comment (margin under the cap):** with the APR capped and no deposits, the margin is decided by funding cost. That makes the funding question above the one that matters most.
+
 
 
 
