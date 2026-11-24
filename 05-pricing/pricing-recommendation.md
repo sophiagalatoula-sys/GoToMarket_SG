@@ -97,7 +97,22 @@ The assumption is about how invited friends perceive a new fee. Van Westendorp's
 - **Comment:** sensible buy-vs-build. Keeping decisioning and orchestration in-house is right. Name the regulatory hooks you've handled at tbi: BoG remote identification (video/selfie KYC rules), the AML/CFT risk-based approach, DORA for third-party ICT.
 - **Question:** "Who owns the scorecard, internally? Is there a CRO or Head of Credit Risk hired yet? For the licence, the BoG will want an independent risk and compliance function."
 - **Question:** "Is income verification through Open Banking or the AADE tax-return (εκκαθαριστικό) API?" tbi and Eurobank use eGov / tax-return pulls today. That is table stakes.
-- **Question:** "Is collections in Mambu or a separate tool? Which servicer is the arrears partner?" Slide 8 mentions one. The BoG flags a new framework for credit servicers, currently in consultation.
+- **Question (tech):** "Does collections run in Mambu, or in a separate collections tool?"
+- **Question (arrears partner, slide 8 M3):** "Will early arrears be handled in-house, or outsourced from day one? Is the M3 'arrears management company' a BoG-licensed servicer, a collection agency, or a future buyer of non-performing loans?"
+  - **Why ask:** Greece's servicer rules were tightened in November 2026. Parliament passed the reform on 5.11.2026; the law number and effective date are not yet confirmed ([tovima, 05.11.2026](https://www.tovima.com/finance/parliament-approves-new-rules-for-loan-servicers-fixed-3-interest-rate-for-eligible-borrowers/); [iefimerida, 06.11.2026](https://www.iefimerida.gr/english/greece-caps-interest-struggling-borrowers-raises-fines-debt-collectors-tenfold)). The reform:
+    - raises the maximum BoG fine on servicers from €500k to €5m
+    - adds annual audits and wider disclosure
+    - bans enforcement against borrowers who keep to a restructuring
+    - requires a documented proposal at least 3 months before an auction
+    - caps the down payment on bilateral restructurings at 15%
+    - limits interest on outstanding claims
+  - The draft also capped total claims at 3x principal, including after a claim is assigned to a servicer ([protothema, 17.10.2026](https://en.protothema.gr/2026/10/17/what-changes-for-borrowers-with-non-performing-loans-interest-caps-and-a-crackdown-on-foreclosures/)). That part is not confirmed for the final law.
+  - **So what for HDFS:** the reform is aimed mainly at legacy bank non-performing loans and mortgages. It matters to HDFS in two ways:
+    - **Partner cost:** outsourcing or selling arrears now means working with a more tightly regulated, higher-cost partner.
+    - **Collections design:** in-house collections still have to respect the borrower-protection logic.
+  - Ask it to see whether they have planned the collections operating model, not as a compliance trap.
+
+
 
 ## Slide 5: Business model and how HD makes money
 - **Comment:** the cycle is complete, but the slide lacks the four numbers that decide the business: **funding cost, target yield, expected loss (cost of risk), and cost to acquire.**
