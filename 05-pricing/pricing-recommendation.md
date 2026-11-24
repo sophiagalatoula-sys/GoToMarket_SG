@@ -116,6 +116,15 @@ The assumption is about how invited friends perceive a new fee. Van Westendorp's
 
 ## Slide 5: Business model and how HD makes money
 - **Comment:** the cycle is complete, but the slide lacks the four numbers that decide the business: **funding cost, target yield, expected loss (cost of risk), and cost to acquire.**
+  - **Target yield:** the interest and fees the book earns per year, as a % of the average outstanding balance.
+    - It is lower than the headline APR because of early repayments, loans in arrears and promotions. The slide 6 APR (about 17.7%) is the price of one loan, not the yield on the book.
+    - Since 20.11.2026 the APR cap (Law 5317/2026 Art. 40) puts a ceiling on it.
+  - **Funding cost:** what HD pays per year for the money it lends: equity plus bank or wholesale lines, since it can't take deposits.
+  - **Cost of risk (expected loss):** the share of the book lost to defaults each year, net of recoveries.
+  - **Cost to acquire:** marketing, garage, dealer and broker commissions and onboarding costs per loan, spread over the loan's life.
+  - **How they fit together:** yield − funding cost − cost of risk − operating & acquisition costs = margin, which drives RoE.
+  - **Plain-words question:** *"What do you expect the book to earn per year, after early repayments and before losses? And how far is that below the legal APR cap?"*
+  - The deck gives none of these four numbers. Don't quote any figure for them in the room.
 - **Question (the big one):** "Where does the money come from after the €5m equity?" A credit company cannot take deposits. Greek banks sit on an LCR of 197.8% (BoG FSR, October 2026), so bank warehouse lines are plausible. What spread are you assuming?
 - **Question:** "What cost of risk does the plan assume for unsecured micro-loans?"
   - The BoG reports a system NPL ratio of 3.4% in June 2026, rising.
@@ -127,6 +136,8 @@ The assumption is about how invited friends perceive a new fee. Van Westendorp's
   - There is a 3-working-day wait before insurance can be sold alongside the loan.
   - So the LTV uplift can't rely on bundling at the point of credit. Ask whether the business case counts cross-sell revenue that the law would block.
 - **Comment (margin under the cap):** with the APR capped and no deposits, the margin is decided by funding cost. That makes the funding question above the one that matters most.
+
+
 
 ## Slide 6: Road-tax user journey
 - **Comment (credibility):** I recomputed the example: €798, 12.9%, 24 instalments, €27 fee.
