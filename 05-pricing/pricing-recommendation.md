@@ -69,4 +69,108 @@
 The assumption is about how invited friends perceive a new fee. Van Westendorp's four questions (too cheap, a bargain, getting expensive, too expensive) give an **acceptable fee range** for a product that has no price yet, which is exactly the decision in front of us. Ask about the fee as a share of a realistic booking at several experience prices (e.g. €20, €50, €200 a head), so the result sets both the percentage and the cap. Recruit against the ICP: friends who have just been invited to a group booking, sliced by city and by whether they already know Roamly. Max-Diff (what goes in each tier) and Conjoint (fee-versus-feature trade-offs at scale) come later, once the fee range is known. One limit: Van Westendorp measures price perception, not trust. Pair it with a small pilot in one launch city that tracks real invitee payment completion.
 
 
+## Slide 1: Cover ("HDFS Presentation", #HereForGood)
+- **Question (framing):** "Which entity is HDFS: HD Solutions, the company that applied to the BoG? And is the target licence a credit company (no deposits), or a credit institution as the invitation said?"
+  - Press says a specialist credit provider without deposits, filed about a year ago.
+  - The BoG's credit-companies list is empty today.
+  - Source: [bog-market-landscape.md §4](../research/bog-market-landscape.md).
+- **Question (timing):** "Where is the BoG process? Have you had a fit-and-proper interview request yet? The MD will need to pass it." This also tells you how fast they need you.
+
+## Slide 2: Thesis (old fleets, low credit availability, rejection rates)
+- **Comment:** the thesis is right on *need*. But "cannot afford €600" means affordability risk as well as demand. Underwriting has to separate *liquidity-short* from *over-indebted*.
+- **Comment:** the "67% rejection for car loans, up to 90% for other consumer credit" figure is sourced to "Banks' websites". No Greek lender publishes approval rates; none were found on any lender's site on 2026-11-23. Offer to rebuild the number from Teiresias and your own operating experience.
+- **Comment (pricing):** "broadly in line with banks". BoG's new Q3 2026 APR series puts other personal loans at 16.51% and car loans at 10.45% (direct). Ask which of the two is the benchmark.
+- **Comment (law):** since 20.11.2026 "in line with banks" is a legal requirement, not just a choice.
+  - Law 5317/2026 Art. 40 caps the APR at the BoG quarterly average for the same type of credit plus 30–50%. The exact percentage comes from a ministerial decision (Art. 62 par. 2), which may not be issued yet.
+  - On Q3 2026 averages that means about 21.5–24.8% for other personal loans and about 13.6–16.3% for car loans ([apr_cap.ps1](../data/apr_cap.ps1)).
+  - **Question:** "Has the pricing model been rerun against the cap? And since the cap moves every quarter with the BoG average, how will you reprice?"
+- **Question:** "Romania is in the thesis. Is the MD role Greece-only, or both? Who leads Romania?" You have said your expertise is Greece. Clarify scope early.
+
+## Slide 3: Mobility needs, products and channels
+- **Comment:** the yearly cycle (insurance, road tax, repairs, service, tyres) is a strong *engagement* loop. Each event is a trigger to apply again. That is the real LTV story, more than a single loan.
+- **Comment (key insight):** BoG data shows goods financed **via a merchant** cost an average **29.71% APR**, against 18.79% direct. Car loans differ by only 0.39pp (10.84% vs 10.45%). **HD's pricing edge is biggest in garage and repair financing, not car loans.** Lead with garages.
+- **Question:** "What share of the 1.3m customers are in Greece? And how many can you reach digitally, with consent for credit marketing under GDPR?" Cross-selling credit off insurance data needs a lawful basis.
+- **Question:** "Will brokers and price-comparison websites (slide 3 channels) be paid on credit? That reintroduces the middleman that slide 7 removes."
+- **Watch out:** the €20k secured car loan here vs €15k on slide 8. Which is it?
+
+## Slide 4: Tech platform (Mambu, Onfido/Entrust, Teiresias, eGov-KYC, payment rails)
+- **Comment:** sensible buy-vs-build. Keeping decisioning and orchestration in-house is right. Name the regulatory hooks you've handled at tbi: BoG remote identification (video/selfie KYC rules), the AML/CFT risk-based approach, DORA for third-party ICT.
+- **Question:** "Who owns the scorecard, internally? Is there a CRO or Head of Credit Risk hired yet? For the licence, the BoG will want an independent risk and compliance function."
+- **Question:** "Is income verification through Open Banking or the AADE tax-return (εκκαθαριστικό) API?" tbi and Eurobank use eGov / tax-return pulls today. That is table stakes.
+- **Question:** "Is collections in Mambu or a separate tool? Which servicer is the arrears partner?" Slide 8 mentions one. The BoG flags a new framework for credit servicers, currently in consultation.
+
+## Slide 5: Business model and how HD makes money
+- **Comment:** the cycle is complete, but the slide lacks the four numbers that decide the business: **funding cost, target yield, expected loss (cost of risk), and cost to acquire.**
+- **Question (the big one):** "Where does the money come from after the €5m equity?" A credit company cannot take deposits. Greek banks sit on an LCR of 197.8% (BoG FSR, October 2026), so bank warehouse lines are plausible. What spread are you assuming?
+- **Question:** "What cost of risk does the plan assume for unsecured micro-loans?"
+  - The BoG reports a system NPL ratio of 3.4% in June 2026, rising.
+  - Household NPLs were 8.6% (press).
+  - Thin-file micro-loans will run well above the bank book.
+- **Comment:** benchmark the ambition against the BoG H1 2026 sector figures: **RoA 1.3%, RoE 12.1%**. What RoE do they target for HDFS, and by which year?
+- **Question (insurance cross-sell, law):** "How does the credit-to-insurance cross-sell work under Arts. 15–16 of Law 5317/2026?"
+  - The customer must be free to choose another insurer.
+  - There is a 3-working-day wait before insurance can be sold alongside the loan.
+  - So the LTV uplift can't rely on bundling at the point of credit. Ask whether the business case counts cross-sell revenue that the law would block.
+- **Comment (margin under the cap):** with the APR capped and no deposits, the margin is decided by funding cost. That makes the funding question above the one that matters most.
+
+## Slide 6: Road-tax user journey
+- **Comment (credibility):** I recomputed the example: €798, 12.9%, 24 instalments, €27 fee.
+  - The **APR is about 17.7%**, or 18.4% if the 12.9% excludes the 0.6% levy.
+  - The **€27 fee alone adds about 4pp**.
+  - That is close to Eurobank's Fast Loan (17.11%) and tbi's 18.41%: in line, not cheaper.
+- **Comment (compliance):** the screen shows "from €33.25/month", which is €798/24, **zero interest**. At 12.9% the instalment is €37.90. That could not go live as is under the advertising rules of the Consumer Credit Directive. Also, the principal moves from €798 to €942 on the last screen.
+- **Question:** "Is the €27 a 'management fee' or a 'service fee'?"
+  - Under Law 5317/2026 (which transposes the new EU Consumer Credit Directive, CCD2) the fee counts in the APR and must be disclosed upfront.
+  - Art. 40 par. 4 also allows fees only for a specific service or an actual third-party cost, not to cover the lender's operating costs.
+  - "What specific service does the €27 pay for?"
+- **Question (which cap applies):** "Which BoG category will a road-tax loan be reported under?"
+  - As an 'other personal loan', the 17.7–18.4% APR is under the cap (21.5%+).
+  - As a 'services' loan, the cap would be 14.0–16.2%, and the example would be **over** it.
+  - Total cost is 17–18% of principal, well inside the 60% limit (Art. 40 par. 2). Source: [apr_cap.ps1](../data/apr_cap.ps1).
+- **Comment (advertising):** the mock-up will also need the mandatory warning and a representative example (Arts. 7–8).
+- **Comment:** good flow. The 10 screens could become 6 by pre-filling from the HD policy, because you already know the car, plate and owner.
+
+## Slide 7: Direct-to-customer car loans vs dealers
+- **Comment:** pre-approval before the car search is a real customer win. But BoG data shows dealer financing costs only **0.39pp** more than direct car loans, so the pitch has to be **certainty and speed, not price**.
+- **Comment (competition):** Eurobank already finances through 700+ dealers, pays the dealer directly and **retains title**. Santander lends up to €150k over up to 96 months. Their APR examples are 12.59% and 10.55%. The competition here is strong.
+- **Question:** "If the dealer is 'vehicle supplier only', why would dealers cooperate when they lose a finance commission? Slide 8 still targets 50 dealers."
+- **Question:** "Retention of title: who registers it, and how fast can you repossess and remarket a used car in Greece? What recovery rate are you assuming?"
+- **Comment (law):** the car-loan APR cap works out to about **13.6–16.3%** on Q3 2026 averages, which is not far above the 10.45% average. A non-bank, wholesale-funded car book has little room to price for risk. That supports making used-car loans a later, partner-led product.
+
+## Slide 8: First 100 days
+- **Comment (realism):** €3m of new lending in month 1 in tickets of at most €500 means **at least 6,000 loans**, about 60 per garage. That is a scale launch, not "launch clean". Suggest M1 as a controlled cohort: HD customers only, hard limits, daily vintage tracking.
+- **Comment:** up to €14m of cumulative new lending against an EoM3 book of €6–9m implies €5–8m repaid within 3 months. That contradicts 24-month tenors. Ask how the loan book is defined.
+- **Question:** "Is the 100-day clock from licence grant or from now? What are the gates to move from M2 to M3 (approval rate, early delinquency, fraud)?"
+- **Question (law, operations):** "Are the garage and call-centre incentives built yet?" Three articles of Law 5317/2026 shape the operating model:
+  - Art. 41 par. 3(b) bans paying staff by the number of approvals.
+  - Art. 24 gives customers the right to human review of an automated decision. This matters for the "under 5 minutes" journey.
+  - Art. 27 says a failed creditworthiness assessment frees the consumer from the total cost of credit. That makes underwriting quality a legal risk, not only a credit risk.
+- **Offer your 100 days (MD lens):**
+  - Licence and governance first: board committees, CRO and compliance, BoG reporting.
+  - Then the risk appetite statement.
+  - Then garage onboarding playbooks, which reuse your 7K-merchant experience.
+  - Then funding lines.
+  - Then a weekly KPI pack:
+    - applications → approvals → disbursements
+    - first-payment default
+    - 30+ days past due by vintage
+    - CAC (cost to acquire a customer)
+    - cross-sell into insurance
+
+---
+
+## Questions about the role (end of the workshop)
+1. "Is this the MD of HD Solutions with full P&L, or the head of credit inside Hellas Direct? Who do I report to, and what's the board composition?"
+2. "What does handover from Giorgos look like? What's already built and hired, and what's committed to the BoG in the application?" Ask this graciously, since Giorgos may be in the room.
+3. "What's the budget for headcount and funding for year 1, and what would success look like at 12 months?"
+4. "How is the MD rewarded: equity or a long-term incentive tied to the credit company's performance?"
+
+## Choices for Sofia before the meeting
+- Which 2–3 comments lead? Recommended:
+  - slide 6 APR (credibility)
+  - slide 3 garage-vs-car insight (strategy)
+  - slide 5 funding (the business)
+- How hard to push on slide 8. Recommendation: frame it as "here's how I'd de-risk it", not "this is wrong".
+
+
 _____
